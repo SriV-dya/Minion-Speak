@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+body{
+    margin:0;
+    font-family: 'Nerko One', cursive;
+}
+
+nav{
+    background-color: #FFC107;
+    text-align: center;
+    height:10vh;
+    font-size: 3em;
+
+
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+    max-width: 80%;
+    width: 40em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3em;
+    padding-top: 0.8em;
+    padding-left: 1em;
+    font-size: medium;
+}
+textarea:hover, #output:hover{
+    border: solid 2px #FFC107;
+
+}
+button{
+    background-color: #FFC107;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    padding: 0.5em;
+    width: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    border-radius: 1.3em;
+    border: solid 1px #FFC107;
+
+}
+button:hover{
+    background-color: #F87171;
+    border: solid 1px #F87171;
+    color:white;
+    text-decoration: underline;
+
+}
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+#output{
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    width: 35em;
+    height: 8vh;
+    font-size: large;
+
+}
+
+.topic{
+    text-align: center;
+    background-color: #FFC107;
+    margin-bottom: 1rem;
+}
+
+.photo{
+    
+    margin-left: 13rem;
+    margin-right: 2rem;
+    
+}
+
+.saywhat{
+    text-align: center;
+    font-size: x-large;
+}
